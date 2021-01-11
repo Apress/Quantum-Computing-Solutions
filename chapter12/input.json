@@ -1,0 +1,7 @@
+{
+    "trotter_dimension": 11,
+    "initial_annealing": 1,
+    "annealing_step": 1,
+    "montecarlo_step": 12000,
+    "inverse_temperature":39
+}
