@@ -27,6 +27,6 @@ t1_quantum_state = nump.dot(SWAP_quantum_gate, t0_quantum_state)
 print("SWAP Quantum  Gate - T1 Quantum state",t1_quantum_state)
 
 Identity_quantum_gate = nump.eye(2)
-t0_quantum_state = multi_quantum_state(zero_quantum_state, one_quantum_state)
+
 t1_quantum_state = nump.dot(multi_quantum_state(Hadmard_quantum_gate, Identity_quantum_gate), t0_quantum_state)
 print("Multi Quantum State of H Quantum gate and I Quantum gate",t1_quantum_state)

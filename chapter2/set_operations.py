@@ -2,7 +2,7 @@ primes11={3,5,7,11,14};
 
 primes12={3,5,7,11,13,17,19,34}
 
-primes=primes11 & primes12
+primes=primes11 | primes12
 
 print("union of sets", primes11,",",primes12," is")
 print(primes)
