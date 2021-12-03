@@ -14,7 +14,7 @@ def  distance ( point1 ,  point2 ):
     return  math.sqrt (( point1 [ 1 ] - point2 [ 1 ]) ** 2  +  ( point1 [ 0 ] - point2 [ 0 ]) ** 2 )
 
 
-def  calcuatetSpinConfiguration():
+def  calculateSpinConfiguration():
 
     def  Spin_config_at_a_time_in_a_TROTTER_DIM ( tag ): 
         config  =  list ( - np.ones ( NCITY ,  dtype  =  np.int )) 
@@ -198,7 +198,7 @@ if  __name__  ==  '__main__' :
     t0  =  time.clock ()
 
     np.random.seed(100) 
-    spin  =  calcuatetSpinConfiguration () 
+    spin  =  calculateSpinConfiguration () 
     LengthList  =  [] 
     truck_routes = []
     check = False
